@@ -4,7 +4,7 @@ from typing import List
 
 from tug_of_war import play_human_vs_ai, play_ai_vs_ai
 
-
+#pomocznicza funkcja - sprawdza poprawność listy dozwolonych ruchów (--moves)
 def parse_moves(raw: list[str]) -> List[int]:
     try:
         moves = [int(x) for x in raw]
@@ -14,7 +14,7 @@ def parse_moves(raw: list[str]) -> List[int]:
         raise SystemExit(f"Moves must be positive integers, got: {moves}")
     return moves
 
-
+# Główna funkcja uruchamiająca program z parametrami przekazanymi z terminala
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description="Arithmetic Tug-of-War (easyAI)")
     parser.add_argument("--mode", choices=["human_vs_ai", "ai_vs_ai"], default="human_vs_ai",
@@ -26,19 +26,19 @@ def main(argv: list[str] | None = None) -> None:
     parser.add_argument("--depth2", type=int, default=None,
                         help="Negamax depth for Player 2 (AI-vs-AI only). Defaults to --depth.")
     args = parser.parse_args(argv)
-
+    # Walidacja parametru K
     if args.k <= 0:
         raise SystemExit("--k must be a positive integer.")
 
     moves = parse_moves(args.moves)
     depth1 = int(args.depth)
     depth2 = int(args.depth2) if args.depth2 is not None else depth1
-
+# Wybór trybu gry
     if args.mode == "human_vs_ai":
         play_human_vs_ai(k=args.k, moves=moves, depth=depth1)
     else:
         play_ai_vs_ai(k=args.k, moves=moves, depth1=depth1, depth2=depth2)
 
-
+# Punkt startowy programu
 if __name__ == "__main__":
     main()
