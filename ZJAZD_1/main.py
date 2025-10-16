@@ -1,3 +1,7 @@
+# Autorzy: Marek Lewańczyk s29420, Katarzyna Kasperek s27553
+# Data: 15.10.2025
+# Zasady: Zasady gry znajdują się w pliku ./README.md
+
 from __future__ import annotations
 import argparse
 from typing import List
