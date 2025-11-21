@@ -16,6 +16,7 @@ Etapy:
 Wymagania:
 - Python 3.9+
 - requirements.txt
+- w kodzie udostępniam klucz API, wygenerowany na potrzeby zajęć będzie on aktywny do 22.11.2025 roku
 
 Dokładna instrukcja opisana jest w pliku README.md
 """
