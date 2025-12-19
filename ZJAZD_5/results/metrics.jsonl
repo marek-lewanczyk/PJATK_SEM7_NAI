@@ -1,0 +1,11 @@
+{"task": "point1_tabular", "baseline": {"accuracy": 0.7318435754189944, "f1_macro": 0.7235521235521236}, "nn": {"accuracy": 0.8268156424581006, "f1_macro": 0.8108531888059447}, "csv": "data/titanic.csv", "target_col": "Survived"}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.7318435754189944, "f1_macro": 0.7235521235521236}, "nn": {"accuracy": 0.8268156424581006, "f1_macro": 0.8108531888059447}, "csv": "data/titanic.csv", "target_col": "Survived"}
+{"task": "point2_cifar10", "metrics": {"accuracy": 0.7903, "f1_macro": 0.7900261431006071}}
+{"task": "point3_fashion", "model_size": "small", "metrics": {"accuracy": 0.915, "f1_macro": 0.9154428667269686}}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.794180269694819, "f1_macro": 0.7324015424191461}, "nn": {"accuracy": 0.794180269694819, "f1_macro": 0.7254437408617872}, "csv": "data/TelcoCustomerChurn.csv", "target_col": "payment"}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.794180269694819, "f1_macro": 0.7324015424191461}, "nn": {"accuracy": 0.794180269694819, "f1_macro": 0.7254437408617872}, "csv": "data/TelcoCustomerChurn.csv", "target_col": "Churn"}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.7318435754189944, "f1_macro": 0.7235521235521236}, "nn": {"accuracy": 0.8268156424581006, "f1_macro": 0.8108531888059447}, "csv": "data/titanic.csv", "target_col": "Survived"}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.794180269694819, "f1_macro": 0.7324015424191461}, "nn": {"accuracy": 0.794180269694819, "f1_macro": 0.7254437408617872}, "csv": "data/TelcoCustomerChurn.csv", "target_col": "SeniorCitizen"}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.794180269694819, "f1_macro": 0.7324015424191461}, "nn": {"accuracy": 0.794180269694819, "f1_macro": 0.7254437408617872}, "csv": "data/TelcoCustomerChurn.csv", "target_col": "SeniorCitizen"}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.794180269694819, "f1_macro": 0.7324015424191461}, "nn": {"accuracy": 0.794180269694819, "f1_macro": 0.7254437408617872}, "csv": "data/TelcoCustomerChurn.csv", "target_col": "SeniorCitizen"}
+{"task": "point1_tabular", "baseline": {"accuracy": 0.7318435754189944, "f1_macro": 0.7235521235521236}, "nn": {"accuracy": 0.8268156424581006, "f1_macro": 0.8108531888059447}, "csv": "data/titanic.csv", "target_col": "Survived"}
